@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import cocktailData from "../../../script/cocktailData";
+import cocktailData from "../../cocktailData";
 
 /*
 Function for matching a cocktail to ingredients

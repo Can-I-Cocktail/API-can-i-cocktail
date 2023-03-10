@@ -98,7 +98,7 @@ const cocktailData = [
       ".5oz lemon juice",
       ".5oz lime juice",
       "4oz grapefruit soda",
-      "1 pich salt",
+      "1 pinch salt",
     ],
     directions: [
       "Combine the tequila, orange juice, lemon juice and lime juice in the glass with a pinch of salt.",

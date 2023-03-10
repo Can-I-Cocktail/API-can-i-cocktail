@@ -1,5 +1,6 @@
 const cocktailData = [
   {
+    id: 1,
     cocktailName: "Dirty Martini",
     ingredients: ["vodka", "vermouth", "olives"],
     recipe: ["2.5 oz vodka", "0.5oz dry vermouth", "0.5oz olive brine"],
@@ -11,6 +12,7 @@ const cocktailData = [
     img: "martini.jpeg",
   },
   {
+    id: 2,
     cocktailName: "Tequila Sunrise",
     ingredients: ["tequila", "orange juice", "grenadine"],
     recipe: ["2oz blanco tequila", "4oz orange juice", "0.25oz grenadine"],
@@ -22,6 +24,7 @@ const cocktailData = [
     img: "tequila-sunrise.jpeg",
   },
   {
+    id: 3,
     cocktailName: "Classic Margarita",
     ingredients: ["tequila", "Cointreau", "lime"],
     recipe: [
@@ -37,6 +40,7 @@ const cocktailData = [
     img: "margarita.jpeg",
   },
   {
+    id: 4,
     cocktailName: "Paloma",
     ingredients: [
       "tequila",
@@ -63,6 +67,7 @@ const cocktailData = [
     img: "paloma.jpeg",
   },
   {
+    id: 5,
     cocktailName: "Mexican Mule",
     ingredients: ["tequila", "lime", "ginger beer"],
     recipe: ["2oz tequila", ".5oz lemon juice", "3-4oz ginger beer"],
@@ -73,6 +78,7 @@ const cocktailData = [
     img: "mexican_mule.jpeg",
   },
   {
+    id: 21,
     cocktailName: "Siesta",
     ingredients: ["tequila", "campari", "grapefruit", "lime", "simple syrup"],
     recipe: [
@@ -90,6 +96,7 @@ const cocktailData = [
     img: "siesta.jpeg",
   },
   {
+    id: 6,
     cocktailName: "Cantarito",
     ingredients: ["tequila", "orange", "lime", "lemon", "grapefruit"],
     recipe: [
@@ -107,6 +114,7 @@ const cocktailData = [
     img: "cantarito.jpeg",
   },
   {
+    id: 7,
     cocktailName: "Vodka Gimlet",
     ingredients: ["vodka", "lime", "simple syrup"],
     recipe: ["2oz vodka", "1oz lime juice", "0.25oz simple syrup"],
@@ -117,6 +125,7 @@ const cocktailData = [
     img: "vodka_gimlet.jpeg",
   },
   {
+    id: 22,
     cocktailName: "Moscow Mule",
     ingredients: ["vodka", "lime", "ginger beer"],
     recipe: ["2oz vodka", ".5oz lime juice", "4oz ginger beer"],
@@ -127,6 +136,7 @@ const cocktailData = [
     img: "moscow_mule.jpeg",
   },
   {
+    id: 8,
     cocktailName: "Cosmopolitan",
     ingredients: ["vodka", "cranberry juice", "cointreau", "lime"],
     recipe: [
@@ -142,6 +152,7 @@ const cocktailData = [
     img: "cosmopolitan.jpeg",
   },
   {
+    id: 9,
     cocktailName: "Vodka Sour",
     ingredients: ["vodka", "bitters", "simple syrup", "lemon"],
     recipe: [
@@ -160,6 +171,7 @@ const cocktailData = [
     img: "vodka_sour.jpeg",
   },
   {
+    id: 10,
     cocktailName: "White Russian",
     ingredients: ["vodka", "Kahlua"],
     recipe: [
@@ -178,6 +190,7 @@ const cocktailData = [
     img: "white_russian.jpeg",
   },
   {
+    id: 11,
     cocktailName: "Gin Fizz",
     ingredients: ["gin", "lemon", "simple syrup", "soda water"],
     recipe: [
@@ -195,6 +208,7 @@ const cocktailData = [
     img: "gin-fizz.jpeg",
   },
   {
+    id: 12,
     cocktailName: "Tom Collins",
     ingredients: ["gin", "lemon", "simple syrup", "soda water"],
     recipe: [
@@ -211,6 +225,7 @@ const cocktailData = [
     img: "tom-collins.jpeg",
   },
   {
+    id: 13,
     cocktailName: "French 75",
     ingredients: ["gin", "lemon", "simple syrup", "champange"],
     recipe: [
@@ -226,6 +241,7 @@ const cocktailData = [
     img: "french-75.jpeg",
   },
   {
+    id: 14,
     cocktailName: "Aperol Spritz",
     ingredients: ["aperol", "prosecco", "soda water"],
     recipe: [
@@ -241,6 +257,7 @@ const cocktailData = [
     img: "aperol-spritz.jpeg",
   },
   {
+    id: 15,
     cocktailName: "Gin Gimlet",
     ingredients: ["gin", "lime", "simple syrup"],
     recipe: [
@@ -256,6 +273,7 @@ const cocktailData = [
     img: "gin-gimlet.jpeg",
   },
   {
+    id: 16,
     cocktailName: "Whiskey Sour",
     ingredients: ["whiskey", "lemon", "simple syrup"],
     recipe: [
@@ -272,6 +290,7 @@ const cocktailData = [
     img: "whiskey-sour.jpeg",
   },
   {
+    id: 17,
     cocktailName: "Old Fashioned",
     ingredients: ["whiskey", "bitters"],
     recipe: [
@@ -290,6 +309,7 @@ const cocktailData = [
     img: "old-fashioned.jpeg",
   },
   {
+    id: 18,
     cocktailName: "Brain-Duster",
     ingredients: ["whiskey", "absinthe", "vermouth", "bitters"],
     recipe: [
@@ -304,6 +324,7 @@ const cocktailData = [
     img: "brain-duster.jpeg",
   },
   {
+    id: 19,
     cocktailName: "Hot Toddy",
     ingredients: ["whiskey", "honey", "lemon", "tea"],
     recipe: [
@@ -319,6 +340,7 @@ const cocktailData = [
     img: "hot-toddy.jpeg",
   },
   {
+    id: 20,
     cocktailName: "Kentucky Mule",
     ingredients: ["whiskey", "lime", "ginger beer"],
     recipe: [

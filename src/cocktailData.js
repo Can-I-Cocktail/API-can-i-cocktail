@@ -1,27 +1,336 @@
 const cocktailData = [
   {
-    name: "Dirty Martini",
+    cocktailName: "Dirty Martini",
     ingredients: ["vodka", "vermouth", "olives"],
     recipe: ["2.5 oz vodka", "0.5oz dry vermouth", "0.5oz olive brine"],
-    steps: [
+    directions: [
       "Add the gin or vodka, vermouth and olive brine to a mixing glass filled with ice and stir until well-chilled.",
       "Strain into a chilled cocktail glass.",
       "Garnish with a skewer of olives.",
     ],
+    img: "martini.jpeg",
   },
   {
-    name: "Tequila Sunrise",
+    cocktailName: "Tequila Sunrise",
     ingredients: ["tequila", "orange juice", "grenadine"],
-    recipe: [
-      "2oz blanco tequila",
-      "4oz orange juice, freshly squeezed or boxed",
-      "0.25oz grenadine",
-    ],
-    steps: [
+    recipe: ["2oz blanco tequila", "4oz orange juice", "0.25oz grenadine"],
+    directions: [
       "Add the tequila and then the orange juice to a chilled highball glass filled with ice.",
       "Top with the grenadine, which will sink to the bottom of the glass, creating a layered effect.",
       "Garnish with an orange slice and a cherry.",
     ],
+    img: "tequila-sunrise.jpeg",
+  },
+  {
+    cocktailName: "Classic Margarita",
+    ingredients: ["tequila", "Cointreau", "lime"],
+    recipe: [
+      "1.5oz tequila",
+      "1oz Cointreau or Triple Sec",
+      ".75oz lime juice",
+    ],
+    directions: [
+      "Rim the glass with salt. The salt enhances the sweet and sour flavors in the drink.",
+      "Shake in a cocktail shaker. Take that tequila, Cointreau and lime juice and shake it together in a cocktail shaker with 4 ice cubes.",
+      "Strain into a glass and add ice. Strain the drink into a glass and add ice.",
+    ],
+    img: "margarita.jpeg",
+  },
+  {
+    cocktailName: "Paloma",
+    ingredients: [
+      "tequila",
+      "grapefruit",
+      "lime",
+      "simple syrup",
+      "soda water",
+    ],
+    recipe: [
+      "2oz tequila",
+      "2oz grapefruit soda OR grapefruit juice",
+      "2oz soda water",
+      ".5oz lime juice",
+      ".25oz simple syrup",
+    ],
+    directions: [
+      "Rim the glass with salt. A classic margarita has salt on the rim. Why? The salt enhances the sweet and sour flavors in the drink.",
+      "Shake in a cocktail shaker. Take that tequila, Cointreau and lime juice and shake it together in a cocktail shaker with 4 ice cubes.",
+      "Strain into a glass and add ice. Strain the drink into a glass and add ice.",
+      "Rim the glass with salt. Not only does it look cute, but the salt enhances the overall flavor of the drink.",
+      "Stir tequila, grapefruit, lime and syrup in the glass.",
+      "Add ice and top with soda water. Fill the glass with ice and top with soda water. Or if you are using grapefruit soda, simply pour the soda into the tequila.",
+    ],
+    img: "paloma.jpeg",
+  },
+  {
+    cocktailName: "Mexican Mule",
+    ingredients: ["tequila", "lime", "ginger beer"],
+    recipe: ["2oz tequila", ".5oz lemon juice", "3-4oz ginger beer"],
+    directions: [
+      "Pour the tequila, lime juice, and ginger beer into a copper mug or serving glass of your choice.",
+      "Add ice cubes, and garnish with lime.",
+    ],
+    img: "mexican_mule.jpeg",
+  },
+  {
+    cocktailName: "Siesta",
+    ingredients: ["tequila", "campari", "grapefruit", "lime", "simple syrup"],
+    recipe: [
+      "2oz tequila",
+      ".5oz Campari",
+      ".5oz grapefruit juice",
+      ".5oz lime juice",
+      ".5oz simple syrup",
+    ],
+    directions: [
+      "Place the tequila, Campari, grapefruit juice, lime juice, and simple syrup in a cocktail shaker.",
+      "Add 2 handfuls of ice and shake until cold.",
+      "Strain the drink into a cocktail glass. Garnish with a citrus wedge if desired.",
+    ],
+    img: "siesta.jpeg",
+  },
+  {
+    cocktailName: "Cantarito",
+    ingredients: ["tequila", "orange", "lime", "lemon", "grapefruit"],
+    recipe: [
+      "2oz tequila",
+      "1oz orange juice",
+      ".5oz lemon juice",
+      ".5oz lime juice",
+      "4oz grapefruit soda",
+      "1 pich salt",
+    ],
+    directions: [
+      "Combine the tequila, orange juice, lemon juice and lime juice in the glass with a pinch of salt.",
+      "Fill the glass with ice and top with grapefruit soda. Garnish with citrus wedges.",
+    ],
+    img: "cantarito.jpeg",
+  },
+  {
+    cocktailName: "Vodka Gimlet",
+    ingredients: ["vodka", "lime", "simple syrup"],
+    recipe: ["2oz vodka", "1oz lime juice", "0.25oz simple syrup"],
+    directions: [
+      "Add vodka, lime juice, and syrup to a cocktail shaker. Fill with a handful of ice and shake until cold.",
+      "Strain the drink into a coupe or martini glass and top with a splash of soda water, if desired. Garnish with a lime wedge or wheel and serve.",
+    ],
+    img: "vodka_gimlet.jpeg",
+  },
+  {
+    cocktailName: "Moscow Mule",
+    ingredients: ["vodka", "lime", "ginger beer"],
+    recipe: ["2oz vodka", ".5oz lime juice", "4oz ginger beer"],
+    directions: [
+      "Pour the vodka, lime juice, and ginger beer into a copper mug.",
+      "Add ice and garnish with a lime slice. Serve immediately.",
+    ],
+    img: "moscow_mule.jpeg",
+  },
+  {
+    cocktailName: "Cosmopolitan",
+    ingredients: ["vodka", "cranberry juice", "cointreau", "lime"],
+    recipe: [
+      "4oz vodka",
+      "2oz ccointreau",
+      ".5oz lime juice",
+      "2oz cranberry juice",
+    ],
+    directions: [
+      "Add vodka, Cointreau, cranberry juice, and lime juice to a cocktail shaker and fill with ice. Shake until well chilled. ",
+      "Strain drink into a martini glasses and garnish with a lime wheel if desired.",
+    ],
+    img: "cosmopolitan.jpeg",
+  },
+  {
+    cocktailName: "Vodka Sour",
+    ingredients: ["vodka", "bitters", "simple syrup", "lemon"],
+    recipe: [
+      "2oz vodka",
+      "2oz cointreau",
+      "1oz lemon juice",
+      ".5oz lime juice (optional)",
+      "2 dashes Angostura bitters",
+      "1 egg white",
+    ],
+    directions: [
+      "Add the vodka, lemon juice, lime juice, syrup, bitters, and egg white to a cocktail shaker without ice. Shake for 15 seconds.",
+      "Add the ice to the cocktail shaker. Shake again for 30 seconds.",
+      "Strain the drink into a glass; the foam will collect at the top. Serve with ice, a lemon wedge, and a cocktail cherry.",
+    ],
+    img: "vodka_sour.jpeg",
+  },
+  {
+    cocktailName: "White Russian",
+    ingredients: ["vodka", "Kahlua"],
+    recipe: [
+      "2oz vodka",
+      "1oz coffee liqueur like Kahlua",
+      "1oz heavy cream or milk",
+    ],
+    directions: [
+      "Add the vodka, lemon juice, lime juice, syrup, bitters, and egg white to a cocktail shaker without ice. Shake for 15 seconds.",
+      "Add the ice to the cocktail shaker. Shake again for 30 seconds.",
+      "Strain the drink into a glass; the foam will collect at the top. Serve with ice, a lemon wedge, and a cocktail cherry.",
+      "Add the vodka and and coffee liqueur to a glass. Fill the glass the ice.",
+      "Pour in 1 ounce of heavy cream.",
+      "Stir gently to get the swirl effect. Stir a White Russian vigorously and it is a solidly beige drink. But want to get the swirl effect? Stir it gently just a few times, and the cream will swirl into the vodka and Kahlua in a beautiful pattern.",
+    ],
+    img: "white_russian.jpeg",
+  },
+  {
+    cocktailName: "Gin Fizz",
+    ingredients: ["gin", "lemon", "simple syrup", "soda water"],
+    recipe: [
+      "2oz gin",
+      "0.75oz lemon juice, freshly squeezed or bottled",
+      "0.5oz simple syrup or maple syrup",
+      "1 egg white (optional)",
+      "Soda water",
+    ],
+    directions: [
+      "Place the gin, lemon juice, syrup and egg white in a cocktail shaker. Shake vigorously for 15 seconds.",
+      "Fill the shaker with ice and shake for 30 seconds until cold.",
+      "Strain the drink into a glass and top with the soda water; the egg white foam forms on top. If desired, garnish with a lemon twist. Serve immediately.",
+    ],
+    img: "gin-fizz.jpeg",
+  },
+  {
+    cocktailName: "Tom Collins",
+    ingredients: ["gin", "lemon", "simple syrup", "soda water"],
+    recipe: [
+      "2oz gin",
+      "0.75oz simple syrup",
+      "1oz lemon juice, freshly squeezed or bottled",
+      "4oz soda water",
+      "Maraschino cherry, lemon wheel for garnish",
+    ],
+    directions: [
+      "Add the gin, syrup and lemon juice to a cocktail shaker with 4 ice cubes. Shake well until chilled.",
+      "Strain the liquid into an ice filled glass, and top off the glass with soda water. Garnish with a lemon wheel and cocktail cherry.",
+    ],
+    img: "tom-collins.jpeg",
+  },
+  {
+    cocktailName: "French 75",
+    ingredients: ["gin", "lemon", "simple syrup", "champange"],
+    recipe: [
+      "1.5oz gin",
+      "0.75oz lemon juice, freshly squeezed or bottled",
+      "0.5oz simple syrup",
+      "3oz champange",
+    ],
+    directions: [
+      "Place the gin, lemon juice, and syrup in a cocktail shaker with ice. Shake 15 seconds until cold. Strain the liquid into a champagne flute. (You can also pour these ingredients right into the flute, but the classic method is to use a cocktail shaker. If desired, shake up to 4 drinks at one time.)",
+      "Top off the glass with champagne. Garnish and serve.",
+    ],
+    img: "french-75.jpeg",
+  },
+  {
+    cocktailName: "Aperol Spritz",
+    ingredients: ["aperol", "prosecco", "soda water"],
+    recipe: [
+      "3oz aperol",
+      "3oz prosecco",
+      "1oz club soda, soda water, or sparkling water",
+      "Orange slice for garnish",
+    ],
+    directions: [
+      "Add ice to a wine glass until it is nearly full. Pour in the Aperol.",
+      "Pour in an equal amount of Prosecco. Top your drink off with a splash of club soda and add a slice of orange. Enjoy!",
+    ],
+    img: "aperol-spritz.jpeg",
+  },
+  {
+    cocktailName: "Gin Gimlet",
+    ingredients: ["gin", "lime", "simple syrup"],
+    recipe: [
+      "2oz gin",
+      "0.5oz lime juice, freshly squeezed or bottled",
+      "0.5oz simple syrup or maple syrup",
+      "Splash of soda water (optional)",
+    ],
+    directions: [
+      "Add gin, lime juice, and syrup to a cocktail shaker. Fill with ice and shake until cold.",
+      "Strain into glass and top with a splash of soda water, if desired. Garnish with a lime wheel and serve.",
+    ],
+    img: "gin-gimlet.jpeg",
+  },
+  {
+    cocktailName: "Whiskey Sour",
+    ingredients: ["whiskey", "lemon", "simple syrup"],
+    recipe: [
+      "2oz bourbon whiskey",
+      "0.75oz lemon juice, freshly squeezed or bottled",
+      "0.75oz simple syrup or maple syrup",
+      "Orange wheel and maraschinocherry for garnish",
+    ],
+    directions: [
+      "Combine bourbon, lemon juice, and simple syrup in a cocktail shaker.",
+      "Fill shaker with ice, cover, and shake vigorously until outside of shaker is very cold, about 20 seconds.",
+      "Strain cocktail through a Hawthorne strainer or a slotted spoon into an old-fashioned or rocks glass filled with ice. Garnish with orange wheel and cherry.",
+    ],
+    img: "whiskey-sour.jpeg",
+  },
+  {
+    cocktailName: "Old Fashioned",
+    ingredients: ["whiskey", "bitters"],
+    recipe: [
+      "2oz bourbon whiskey",
+      "1tsp sugar, honey, or maple syrup",
+      "3 dashes of bitters",
+      "1tsp water",
+      "Orange twist for garnish",
+    ],
+    directions: [
+      "Add the sugar and bitters into a mixing glass, then add the water, and stir until the sugar is nearly dissolved.",
+      "Fill the mixing glass with ice, add the bourbon, and stir until well-chilled.",
+      "Strain into a rocks glass over one large ice cube.",
+      "Express the oil of an orange twist over the glass, then drop into the glass to garnish.",
+    ],
+    img: "old-fashioned.jpeg",
+  },
+  {
+    cocktailName: "Brain-Duster",
+    ingredients: ["whiskey", "absinthe", "vermouth", "bitters"],
+    recipe: [
+      "1oz rye whiskey",
+      "1oz absinthe",
+      "1oz Italian vermouth",
+      "1 dash of Angostura bitters",
+    ],
+    directions: [
+      "Stir ingredients well with cracked ice, then strain into a chilled cocktail glass.",
+    ],
+    img: "brain-duster.jpeg",
+  },
+  {
+    cocktailName: "Hot Toddy",
+    ingredients: ["whiskey", "honey", "lemon", "tea"],
+    recipe: [
+      "2oz bourbon whiskey",
+      "0.5oz honey",
+      "lemon juice, freshly squeezed or bottled",
+      "1 tea bag",
+    ],
+    directions: [
+      "Boil water in a teapot, then steep star anise pod or tea bag inside.",
+      "Add bourbon, honey, and lemon to a glass mug. Stir. Pour tea over the cocktail base to taste, and stir.",
+    ],
+    img: "hot-toddy.jpeg",
+  },
+  {
+    cocktailName: "Kentucky Mule",
+    ingredients: ["whiskey", "lime", "ginger beer"],
+    recipe: [
+      "2oz bourbon whiskey",
+      "0.5oz lime juice, freshly squeezed or bottled",
+      "6oz ginger beer",
+    ],
+    directions: [
+      "Squeeze lime juice into a MoscKenow Mule mug (or a Collins glass) and drop in the spent shell.",
+      "Add 2 or 3 ice cubes, then pour in the bourbon and fill with cold ginger beer. Garnish with mint and serve with a stirring rod.",
+    ],
+    img: "kentucky-mule.jpeg",
   },
 ];
 

@@ -4,6 +4,8 @@ import cocktailData from "../../cocktailData";
 const cocktailList = cocktailData;
 console.log(cocktailList);
 
+//add useparams to grab the single id
+
 const SingleRecipe = () => {
   return (
     <div>

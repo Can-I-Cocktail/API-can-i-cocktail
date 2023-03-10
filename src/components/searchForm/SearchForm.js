@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import cocktailData from "../../cocktailData";
+import SearchResult from "../searchResult/searchResult";
 
 /*
 Function for matching a cocktail to ingredients
@@ -64,7 +65,6 @@ const SearchForm = () => {
   const [ingredient3, setIngredient3] = useState("");
   const [ingredient4, setIngredient4] = useState("");
   const [ingredient5, setIngredient5] = useState("");
-  const [possibleRecipes, setPossibleRecipes] = useState([]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

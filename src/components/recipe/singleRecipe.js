@@ -7,11 +7,11 @@ console.log(cocktailList);
 const SingleRecipe = () => {
   return (
     <div>
-      <img className="fitting-image" src={cocktailList[img]} />
-      <h2>{cocktailList[cocktailName]}</h2>
-      <h3>{cocktailList[ingredients]}</h3>
-      <h3>{cocktailList[recipe]}</h3>
-      <h3>{cocktailList[directions]}</h3>
+      <img className="fitting-image" src={cocktailList[0].img} />
+      <h2>{cocktailList[0].cocktailName}</h2>
+      <h3>{cocktailList[0].ingredients}</h3>
+      <h3>{cocktailList[0].recipe}</h3>
+      <h3>{cocktailList[0].directions}</h3>
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Home = (props) => {
         cocktail recipe
       </h3>
       <SearchForm />
-      <SearchResult />
+      {/* <SearchResult /> */}
     </div>
   );
 };

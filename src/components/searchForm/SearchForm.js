@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import cocktailData from "../../cocktailData";
-import SearchResult from "../searchResult/searchResult";
 
 /*
 Function for matching a cocktail to ingredients

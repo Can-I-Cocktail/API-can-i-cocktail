@@ -1,5 +1,6 @@
 import React from "react";
 import SearchForm from "../searchForm/SearchForm";
+import SearchResult from "../searchResult/searchResult";
 
 const Home = (props) => {
   return (
@@ -10,6 +11,7 @@ const Home = (props) => {
         cocktail recipe
       </h3>
       <SearchForm />
+      {/* <SearchResult /> */}
     </div>
   );
 };

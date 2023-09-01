@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import cocktailData from "../../cocktailData";
 import SearchResult from "../searchResult/searchResult";
-
+import NoMatch from "../noMatches/noMatches";
 /*
 Function for matching a cocktail to ingredients
 Checks the array of userIngredients against the array of cocktail ingredients for each cocktail in cocktailData
@@ -119,6 +119,7 @@ const SearchForm = () => {
       {submitted === true && matches[0] !== undefined && (
         <SearchResult matches={matches} />
       )}
+      {submitted === true && matches[0] === undefined && <NoMatch />}
     </div>
   );
 };

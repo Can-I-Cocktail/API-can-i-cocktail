@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #301e49;
+  height: 100vh;
 }
 
 .App-logo {
@@ -41,4 +43,15 @@
   width: 300px;
   height: 300px;
   object-fit: cover;
+}
+
+.title {
+  font-family: pf-venue, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #ec008c;
+}
+
+.logo {
+  max-width: 400px;
 }

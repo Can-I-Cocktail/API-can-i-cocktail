@@ -1,3 +1,15 @@
+.navContainer {
+  padding-top: 1rem;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-left: 5%;
+}
+
 .navLink {
   font-family: pf-venue, sans-serif;
   font-weight: 300;
@@ -9,11 +21,13 @@
 .navLink:hover {
   color: #68c4e6;
   cursor: pointer;
-  text-shadow: 0 0 30px #68c4e6, 0 0 40px #68c4e6, 0 0 50px #68c4e6,
-    0 0 60px #68c4e6, 0 0 70px #68c4e6;
+  text-shadow: 0 0 5px #68c4e6, 0 0 15px #68c4e6, 0 0 20px #68c4e6,
+    0 0 30px #68c4e6, 0 0 40px #68c4e6;
 }
 
 .hr {
   border: 0.5px solid #8dc63f;
   width: 90%;
+  box-shadow: 0 0 5px #92e668, 0 0 15px #92e668, 0 0 20px #92e668,
+    0 0 30px #92e668, 0 0 40px #92e668;
 }

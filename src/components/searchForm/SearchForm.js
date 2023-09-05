@@ -88,8 +88,12 @@ const SearchForm = () => {
   };
 
   return (
-    <div>
-      <form id="searchForm" onSubmit={handleSubmit}>
+    <div className={styles.searchFormContainer}>
+      <form
+        id="searchForm"
+        onSubmit={handleSubmit}
+        className={styles.searchForm}
+      >
         <input
           type="text"
           onChange={(e) => setIngredient1(e.target.value)}

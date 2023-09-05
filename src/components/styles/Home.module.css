@@ -1,3 +1,17 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleLogoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: x-large;
+}
+
 .title {
   font-family: pf-venue, sans-serif;
   font-weight: 300;
@@ -22,11 +36,13 @@
   24%,
   55% {
     text-shadow: none;
+    color: #edabd3;
   }
 }
 
 .logo {
-  max-width: 400px;
+  max-width: 300px;
+  float: center;
 }
 
 .instructions {

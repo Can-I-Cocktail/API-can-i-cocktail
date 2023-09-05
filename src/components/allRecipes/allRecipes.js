@@ -4,20 +4,24 @@ import styles from "../styles/AllRecipes.module.css";
 
 const AllRecipes = (props) => {
   return (
-    <div className="searchResults">
+    <div className={styles.allRecipesContainer}>
       {cocktailData.map((cocktail) => {
         return (
           <div className={styles.cocktailCard}>
-            <img className="fitting-image" src={cocktail.img} />
+            <img
+              className={styles.image}
+              src={cocktail.img}
+              alt={cocktail.img}
+            />
             <h2 className={styles.cocktailName}>{cocktail.cocktailName}</h2>
-            <ul>
+            <ul className={styles.ingredient}>
               {cocktail.recipe.map((ingredient) => {
-                return <li className={styles.ingredient}>{ingredient}</li>;
+                return <li>{ingredient}</li>;
               })}
             </ul>
-            <ol>
+            <ol className={styles.step}>
               {cocktail.directions.map((step) => {
-                return <li className={styles.step}>{step}</li>;
+                return <li>{step}</li>;
               })}
             </ol>
           </div>

@@ -1,9 +1,23 @@
+.searchFormContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .input {
   border: 1px solid #8dc63f;
   background: transparent;
   font-family: mr-eaves-sans, sans-serif;
   font-weight: 300;
   color: #f9ed32;
+  width: 500px;
 }
 
 .input:focus {

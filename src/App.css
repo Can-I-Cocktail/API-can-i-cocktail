@@ -1,7 +1,6 @@
-.App {
+body {
   text-align: center;
   background-color: #301e49;
-  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {

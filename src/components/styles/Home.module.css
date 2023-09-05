@@ -1,0 +1,36 @@
+.title {
+  font-family: pf-venue, sans-serif;
+  font-weight: 300;
+  color: #ec008c;
+  text-shadow: 0 0 30px #e22a86, 0 0 40px #e22a86, 0 0 50px #e22a86,
+    0 0 60px #e22a86, 0 0 70px #e22a86;
+  animation: flicker 1.5s infinite alternate;
+}
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 30px #dc68a2, 0 0 40px #dc68a2, 0 0 50px #dc68a2,
+      0 0 60px #dc68a2, 0 0 70px #dc68a2;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.logo {
+  max-width: 400px;
+}
+
+.instructions {
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 300;
+  color: #00aeef;
+}

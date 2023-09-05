@@ -1,0 +1,26 @@
+.cocktailCard {
+  outline: 1px solid #f9ed32;
+  padding: 5px;
+}
+
+.cocktailName {
+  font-family: pf-venue, sans-serif;
+  font-weight: 300;
+  color: #ec008c;
+}
+
+.ingredient {
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 300;
+  color: #e54ca8;
+  list-style-type: none;
+  text-align: left;
+}
+
+.step {
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 300;
+  color: #00aeef;
+  list-style-position: inside;
+  text-align: left;
+}

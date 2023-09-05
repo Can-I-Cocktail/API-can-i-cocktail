@@ -1,0 +1,19 @@
+.navLink {
+  font-family: pf-venue, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #00aeef;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #68c4e6;
+  cursor: pointer;
+  text-shadow: 0 0 30px #68c4e6, 0 0 40px #68c4e6, 0 0 50px #68c4e6,
+    0 0 60px #68c4e6, 0 0 70px #68c4e6;
+}
+
+.hr {
+  border: 0.5px solid #8dc63f;
+  width: 90%;
+}

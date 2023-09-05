@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import cocktailData from "../../cocktailData";
 import SearchResult from "../searchResult/searchResult";
 import NoMatch from "../noMatches/noMatches";
+import styles from "../styles/SearchForm.module.css";
 /*
 Function for matching a cocktail to ingredients
 Checks the array of userIngredients against the array of cocktail ingredients for each cocktail in cocktailData
@@ -93,28 +94,35 @@ const SearchForm = () => {
           type="text"
           onChange={(e) => setIngredient1(e.target.value)}
           required
+          className={styles.input}
         ></input>
         <input
           type="text"
           onChange={(e) => setIngredient2(e.target.value)}
           required
+          className={styles.input}
         ></input>
         <input
           type="text"
           onChange={(e) => setIngredient3(e.target.value)}
           required
+          className={styles.input}
         ></input>
         <input
           type="text"
           onChange={(e) => setIngredient4(e.target.value)}
           required
+          className={styles.input}
         ></input>
         <input
           type="text"
           onChange={(e) => setIngredient5(e.target.value)}
           required
+          className={styles.input}
         ></input>
-        <button type="submit">Can I Cocktail?</button>
+        <button type="submit" className={styles.submitBtn}>
+          Can I Cocktail?
+        </button>
       </form>
       {submitted === true && matches[0] !== undefined && (
         <SearchResult matches={matches} />

@@ -1,0 +1,45 @@
+.allRecipesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.cocktailCard {
+  padding: 1rem;
+  width: 15rem;
+  background-color: aliceblue;
+}
+
+.cocktailName {
+  font-family: pf-venue, sans-serif;
+  font-weight: 300;
+  color: #ec008c;
+}
+
+.ingredient {
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 300;
+  color: #e54ca8;
+  list-style-type: none;
+  text-align: left;
+  padding: 0 0.7rem 0 0.7rem;
+}
+
+.step {
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 300;
+  color: #301e49;
+  list-style-position: inside;
+  text-align: left;
+  padding: 0 0.7rem 0 0.7rem;
+}
+
+.image {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}

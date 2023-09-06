@@ -1,0 +1,108 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleLogoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.title {
+  font-family: pf-venue, sans-serif;
+  font-weight: 300;
+  color: #ec008c;
+  text-shadow: 0 0 30px #e22a86, 0 0 40px #e22a86, 0 0 50px #e22a86,
+    0 0 60px #e22a86, 0 0 70px #e22a86;
+  animation: flicker 1.5s infinite alternate;
+}
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 30px #dc68a2, 0 0 40px #dc68a2, 0 0 50px #dc68a2,
+      0 0 60px #dc68a2, 0 0 70px #dc68a2;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+    color: #edabd3;
+  }
+}
+
+.logo {
+  max-width: 20rem;
+  float: center;
+}
+
+.instructions {
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 300;
+  color: #00aeef;
+}
+
+/* for mobile screens smaller than or equal to 414px wide*/
+@media screen and (max-width: 414px) {
+  .homeContainer {
+    width: 100%;
+    padding-bottom: 0.7rem;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .logo {
+    max-width: 10rem;
+  }
+  .instructions {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* for tablet screens between and including 415px - 912px wide*/
+@media screen and (min-width: 415px) and (max-width: 912px) {
+  .homeContainer {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .logo {
+    max-width: 15rem;
+  }
+  .instructions {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* for screens between and including 913px - 1920px wide*/
+@media screen and (min-width: 913px) and (max-width: 1920px) {
+  .homeContainer {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .logo {
+    max-width: 18rem;
+  }
+  .instructions {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

@@ -1,0 +1,79 @@
+.searchFormContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  border: 1px solid #8dc63f;
+  background: transparent;
+  font-family: mr-eaves-sans, sans-serif;
+  font-weight: 300;
+  color: #f9ed32;
+  width: 10rem;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.submitBtn {
+  border: 1px solid #ec008c;
+  background: transparent;
+  font-family: pf-venue, sans-serif;
+  font-weight: 300;
+  color: #ec008c;
+}
+
+.submitBtn:hover {
+  border: 1px solid #e54ca8;
+  color: #e54ca8;
+  cursor: pointer;
+  text-shadow: 0 0 30px #e22a86, 0 0 40px #e22a86, 0 0 50px #e22a86,
+    0 0 60px #e22a86, 0 0 70px #e22a86;
+}
+
+/* for mobile screens smaller than or equal to 414px wide*/
+@media screen and (max-width: 414px) {
+  .input {
+    max-width: 15rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+  }
+  .submitBtn {
+    max-width: 7rem;
+  }
+}
+
+/* for tablet screens between and including 415px - 912px wide*/
+@media screen and (min-width: 415px) and (max-width: 912px) {
+  .input {
+    max-width: 30rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .submitBtn {
+    width: 10rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* for screens between and including 913px - 1920px wide*/
+@media screen and (min-width: 913px) and (max-width: 1920px) {
+  .input {
+    width: 35rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .submitBtn {
+    width: 10rem;
+    font-size: 1.5rem;
+  }
+}

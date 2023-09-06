@@ -760,7 +760,12 @@ const cocktailData = [
   {
     id: 45,
     cocktailName: "Pisco Sour",
-    ingredients: ["Pisco", "Lime", "Simple Syrup", "Bitters"],
+    ingredients: [
+      "Pisco",
+      "Lime",
+      "Simple Syrup",
+      "Bitters",
+    ],
     recipe: [
       "2 oz Pisco",
       "1 oz Fresh Lime Juice",
@@ -790,5 +795,3 @@ const cocktailData = [
     img: "gin-tonic.jpeg",
   },
 ];
-
-export default cocktailData;

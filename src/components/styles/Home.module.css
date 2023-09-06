@@ -9,7 +9,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  font-size: x-large;
 }
 
 .title {
@@ -41,7 +40,7 @@
 }
 
 .logo {
-  max-width: 300px;
+  max-width: 20rem;
   float: center;
 }
 
@@ -49,4 +48,61 @@
   font-family: mr-eaves-sans, sans-serif;
   font-weight: 300;
   color: #00aeef;
+}
+
+/* for mobile screens smaller than or equal to 414px wide*/
+@media screen and (max-width: 414px) {
+  .homeContainer {
+    width: 100%;
+    padding-bottom: 0.7rem;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .logo {
+    max-width: 10rem;
+  }
+  .instructions {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* for tablet screens between and including 415px - 912px wide*/
+@media screen and (min-width: 415px) and (max-width: 912px) {
+  .homeContainer {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .logo {
+    max-width: 15rem;
+  }
+  .instructions {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* for screens between and including 913px - 1920px wide*/
+@media screen and (min-width: 913px) and (max-width: 1920px) {
+  .homeContainer {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .logo {
+    max-width: 18rem;
+  }
+  .instructions {
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }

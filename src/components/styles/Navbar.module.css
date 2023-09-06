@@ -31,3 +31,24 @@
   box-shadow: 0 0 5px #92e668, 0 0 15px #92e668, 0 0 20px #92e668,
     0 0 30px #92e668, 0 0 40px #92e668;
 }
+
+/* for mobile screens smaller than or equal to 414px wide*/
+@media screen and (max-width: 414px) {
+  .navLink {
+    font-size: 1rem;
+  }
+}
+
+/* for tablet screens between and including 415px - 912px wide*/
+@media screen and (min-width: 415px) and (max-width: 912px) {
+  .navLink {
+    font-size: 1.2rem;
+  }
+}
+
+/* for screens between and including 913px - 1920px wide*/
+@media screen and (min-width: 913px) and (max-width: 1920px) {
+  .navLink {
+    font-size: 1.2rem;
+  }
+}

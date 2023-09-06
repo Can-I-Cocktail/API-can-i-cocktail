@@ -3,7 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .affirm {
@@ -13,9 +13,8 @@
 }
 
 .cocktailCard {
-  padding: 5px;
-  width: 250px;
-  padding: 20px;
+  padding: 1rem;
+  width: 15rem;
   background-color: aliceblue;
 }
 
@@ -31,7 +30,7 @@
   color: #e54ca8;
   list-style-type: none;
   text-align: left;
-  padding: 0px 15px 0px 15px;
+  padding: 0 0.7rem 0 0.7rem;
 }
 
 .step {
@@ -40,11 +39,32 @@
   color: #301e49;
   list-style-position: inside;
   text-align: left;
-  padding: 0px 15px 0px 15px;
+  padding: 0 0.7rem 0 0.7rem;
 }
 
 .image {
-  width: 250px;
-  height: 250px;
+  width: 15rem;
+  height: 15rem;
   object-fit: cover;
+}
+
+/* for mobile screens smaller than or equal to 414px wide*/
+@media screen and (max-width: 414px) {
+  .affirm {
+    font-size: 1rem;
+  }
+}
+
+/* for tablet screens between and including 415px - 912px wide*/
+@media screen and (min-width: 415px) and (max-width: 912px) {
+  .affirm {
+    font-size: 1.2rem;
+  }
+}
+
+/* for screens between and including 913px - 1920px wide*/
+@media screen and (min-width: 913px) and (max-width: 1920px) {
+  .affirm {
+    font-size: 1.5rem;
+  }
 }

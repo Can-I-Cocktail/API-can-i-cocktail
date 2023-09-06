@@ -52,3 +52,13 @@
     font-size: 1.2rem;
   }
 }
+
+/* for screens larger than 1920px*/
+@media screen and (min-width: 1921px) {
+  .navLink {
+    font-size: 2rem;
+  }
+.linksContainer {
+  gap: 2rem;
+}
+}

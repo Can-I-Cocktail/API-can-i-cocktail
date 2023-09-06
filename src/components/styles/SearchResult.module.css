@@ -8,7 +8,7 @@
 
 .affirm {
   font-family: pf-venue, sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   color: #ec008c;
 }
 
@@ -67,4 +67,34 @@
   .affirm {
     font-size: 1.5rem;
   }
+}
+
+/* for screens larger than 1920px*/
+@media screen and (min-width: 1921px) {
+ .affirm {
+  font-size: 2rem
+}
+.cocktailCard {
+  padding: 2rem;
+  width: 25rem;
+}
+.cocktailName {
+  font-size: 2.5rem
+}
+
+.ingredient {
+  font-size: 1.5rem;
+  padding: 0 0.7rem 0 0.7rem;
+}
+
+.step {
+  font-size: 1.5rem;
+  padding: 0 0.7rem 0 0.7rem;
+}
+
+.image {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+}
 }

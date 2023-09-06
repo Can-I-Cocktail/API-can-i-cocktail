@@ -1,8 +1,10 @@
+// 
+
 const cocktailData = [
   {
     id: 1,
     cocktailName: "Classic Margarita",
-    ingredients: ["Tequila", "Triple Sec", "Lime", "Salt"],
+    ingredients: ["tequila", "triple sec", "lime", "salt"],
     recipe: [
       "2 oz Tequila",
       "1 oz Triple Sec",
@@ -67,7 +69,7 @@ const cocktailData = [
   {
     id: 5,
     cocktailName: "Negroni",
-    ingredients: ["Gin", "Campari", "Sweet Vermouth"],
+    ingredients: ["gin", "campari", "sweet vermouth"],
     recipe: [
       "1 oz Gin",
       "1 oz Campari",
@@ -86,7 +88,7 @@ const cocktailData = [
   {
     id: 6,
     cocktailName: "Pina Colada",
-    ingredients: ["White Rum", "Coconut Cream", "Pineapple"],
+    ingredients: ["rum", "coconut cream", "pineapple"],
     recipe: [
       "2 oz White Rum",
       "2 oz Coconut Cream",
@@ -103,7 +105,7 @@ const cocktailData = [
   {
     id: 7,
     cocktailName: "Classic Daiquiri",
-    ingredients: ["Rum", "Lime", "Simple Syrup"],
+    ingredients: ["rum", "lime", "simple syrup"],
     recipe: ["2 oz White Rum", "1 oz Fresh Lime Juice", "0.5 oz Simple Syrup"],
     directions: [
       "Fill a shaker with ice.",
@@ -116,7 +118,7 @@ const cocktailData = [
   {
     id: 8,
     cocktailName: "Mojito",
-    ingredients: ["White Rum", "Lime", "Mint", "Soda Water"],
+    ingredients: ["rum", "lime", "mint", "soda water"],
     recipe: [
       "2 oz White Rum",
       "1 oz Fresh Lime Juice",
@@ -140,38 +142,37 @@ const cocktailData = [
       "2oz bourbon whiskey",
       "0.75oz lemon juice, freshly squeezed or bottled",
       "0.75oz simple syrup or maple syrup",
-      "Orange wheel and maraschinocherry for garnish",
     ],
     directions: [
-      "Combine bourbon, lemon juice, and simple syrup in a cocktail shaker.",
-      "Fill shaker with ice, cover, and shake vigorously until outside of shaker is very cold, about 20 seconds.",
-      "Strain cocktail through a Hawthorne strainer or a slotted spoon into an old-fashioned or rocks glass filled with ice. Garnish with orange wheel and cherry.",
+      "Add all the ingredients to a cocktail shaker filled with ice.",
+      "Shake well until chilled.",
+      "Strain into a rocks glass filled with ice.",
+      "Garnish with a lemon slice or cherry if desired.",
     ],
     img: "whiskey-sour.jpeg",
   },
   {
     id: 10,
-    cocktailName: "Manhattan",
-    ingredients: ["Whiskey", "Sweet Vermouth", "Bitters"],
+    cocktailName: "Moscow Mule",
+    ingredients: ["vodka", "ginger beer", "lime"],
     recipe: [
-      "2 oz Rye Whiskey",
-      "1 oz Sweet Vermouth",
-      "2 dashes Angostura Bitters",
-      "Maraschino Cherry for garnish",
+      "2 oz Vodka",
+      "6 oz Ginger Beer",
+      "0.5 oz Fresh Lime Juice",
+      "Lime Wedge for garnish",
     ],
     directions: [
-      "Fill a mixing glass with ice.",
-      "Add rye whiskey, sweet vermouth, and bitters.",
-      "Stir until well-chilled.",
-      "Strain into a chilled martini glass.",
-      "Garnish with a maraschino cherry.",
+      "Fill a copper mug with ice.",
+      "Pour vodka and ginger beer over the ice.",
+      "Add fresh lime juice and stir.",
+      "Garnish with a lime wedge.",
     ],
-    img: "manhattan.jpeg",
+    img: "moscow-mule.jpeg",
   },
   {
     id: 11,
     cocktailName: "Screwdriver",
-    ingredients: ["Vodka", "Orange"],
+    ingredients: ["vodka", "orange"],
     recipe: ["2 oz Vodka", "5 oz Orange Juice"],
     directions: [
       "Fill a highball glass with ice.",
@@ -183,7 +184,7 @@ const cocktailData = [
   {
     id: 12,
     cocktailName: "Tequila Sunrise",
-    ingredients: ["tequila", "orange juice", "grenadine"],
+    ingredients: ["tequila", "orange", "grenadine"],
     recipe: ["2oz blanco tequila", "4oz orange juice", "0.25oz grenadine"],
     directions: [
       "Add the tequila and then the orange juice to a chilled highball glass filled with ice.",
@@ -195,7 +196,7 @@ const cocktailData = [
   {
     id: 13,
     cocktailName: "White Russian",
-    ingredients: ["Vodka", "Kahlua"],
+    ingredients: ["vodka", "kahlua"],
     recipe: [
       "2 oz Vodka",
       "1 oz Coffee Liqueur (e.g., Kahlua)",
@@ -266,7 +267,7 @@ const cocktailData = [
   {
     id: 17,
     cocktailName: "Caipirinha",
-    ingredients: ["Cachaca", "Lime"],
+    ingredients: ["cachaca", "lime"],
     recipe: ["2 oz Cachaça", "1 Lime, cut into wedges", "2 tsp Sugar"],
     directions: [
       "Muddle lime wedges and sugar in a glass.",
@@ -296,7 +297,7 @@ const cocktailData = [
   {
     id: 19,
     cocktailName: "Sazerac",
-    ingredients: ["Whiskey", "Bitters", "Absinthe"],
+    ingredients: ["whiskey", "bitters", "absinthe"],
     recipe: [
       "2 oz Rye Whiskey",
       "1 Sugar Cube",
@@ -317,7 +318,7 @@ const cocktailData = [
   {
     id: 20,
     cocktailName: "Sidecar",
-    ingredients: ["Cognac", "Triple Sec", "Lemon"],
+    ingredients: ["cognac", "triple sec", "lemon"],
     recipe: [
       "2 oz Cognac",
       "1 oz Triple Sec",
@@ -337,7 +338,7 @@ const cocktailData = [
   {
     id: 21,
     cocktailName: "Aviation",
-    ingredients: ["Gin", "Maraschino Liqueur", "Creme de Violette", "Lemon"],
+    ingredients: ["gin", "maraschino liqueur", "creme de violette", "lemon"],
     recipe: [
       "2 oz Gin",
       "0.5 oz Maraschino Liqueur",
@@ -357,7 +358,7 @@ const cocktailData = [
   {
     id: 22,
     cocktailName: "Corpse Reviver #2",
-    ingredients: ["Gin", "Cointreau", "Lillet Blanc", "Lemon", "Absinthe"],
+    ingredients: ["gin", "cointreau", "lillet blanc", "lemon", "absinthe"],
     recipe: [
       "1 oz Gin",
       "1 oz Cointreau",
@@ -379,7 +380,7 @@ const cocktailData = [
   {
     id: 23,
     cocktailName: "Hemingway Daiquiri",
-    ingredients: ["Rum", "Lime", "Grapefruit", "Maraschino Liqueur"],
+    ingredients: ["rum", "lime", "grapefruit", "maraschino liqueur"],
     recipe: [
       "2 oz White Rum",
       "3/4 oz Fresh Lime Juice",
@@ -399,7 +400,7 @@ const cocktailData = [
   {
     id: 24,
     cocktailName: "Boulevardier",
-    ingredients: ["Bourbon", "Campari", "Sweet Vermouth"],
+    ingredients: ["bourbon", "campari", "sweet vermouth"],
     recipe: [
       "1.5 oz Bourbon",
       "1 oz Campari",
@@ -418,7 +419,7 @@ const cocktailData = [
   {
     id: 25,
     cocktailName: "Grasshopper",
-    ingredients: ["Creme de Menthe", "White Creme de Cacao"],
+    ingredients: ["creme de menthe", "white creme de cacao"],
     recipe: [
       "3/4 oz Green Crème de Menthe",
       "3/4 oz White Crème de Cacao",
@@ -455,12 +456,12 @@ const cocktailData = [
   {
     id: 27,
     cocktailName: "French 75",
-    ingredients: ["gin", "lemon", "simple syrup", "champange"],
+    ingredients: ["gin", "lemon", "simple syrup", "champagne"],
     recipe: [
       "1.5oz gin",
       "0.75oz lemon juice, freshly squeezed or bottled",
       "0.5oz simple syrup",
-      "3oz champange",
+      "3oz champagne",
     ],
     directions: [
       "Place the gin, lemon juice, and syrup in a cocktail shaker with ice. Shake 15 seconds until cold. Strain the liquid into a champagne flute. (You can also pour these ingredients right into the flute, but the classic method is to use a cocktail shaker. If desired, shake up to 4 drinks at one time.)",
@@ -471,7 +472,7 @@ const cocktailData = [
   {
     id: 28,
     cocktailName: "Bee's Knees",
-    ingredients: ["Gin", "Lemon"],
+    ingredients: ["gin", "lemon"],
     recipe: ["2 oz Gin", "3/4 oz Fresh Lemon Juice", "3/4 oz Honey Syrup"],
     directions: [
       "Fill a shaker with ice.",
@@ -484,7 +485,7 @@ const cocktailData = [
   {
     id: 29,
     cocktailName: "Dark 'n' Stormy",
-    ingredients: ["Rum", "Ginger Beer"],
+    ingredients: ["rum", "ginger beer"],
     recipe: ["2 oz Dark Rum", "3 oz Ginger Beer", "Lime Wedge for garnish"],
     directions: [
       "Fill a highball glass with ice.",
@@ -497,7 +498,7 @@ const cocktailData = [
   {
     id: 30,
     cocktailName: "Mint Julep",
-    ingredients: ["Bourbon", "Mint", "Simple Syrup"],
+    ingredients: ["bourbon", "mint", "simple syrup"],
     recipe: [
       "2.5 oz Bourbon",
       "8-10 Fresh Mint Leaves",
@@ -533,7 +534,7 @@ const cocktailData = [
   {
     id: 32,
     cocktailName: "Harvey Wallbanger",
-    ingredients: ["Vodka", "Galliano", "Orange"],
+    ingredients: ["vodka", "galliano", "orange"],
     recipe: [
       "1.5 oz Vodka",
       "0.5 oz Galliano",
@@ -552,7 +553,7 @@ const cocktailData = [
   {
     id: 33,
     cocktailName: "Sex on the Beach",
-    ingredients: ["Vodka", "Peach Schnapps", "Cranberry", "Orange"],
+    ingredients: ["vodka", "peach schnapps", "cranberry", "orange"],
     recipe: [
       "1.5 oz Vodka",
       "0.5 oz Peach Schnapps",
@@ -612,7 +613,7 @@ const cocktailData = [
   {
     id: 37,
     cocktailName: "Mai Tai",
-    ingredients: ["Rum", "Lime", "Orgeat Syrup", "Triple Sec", "Simple Syrup"],
+    ingredients: ["rum", "lime", "orgeat syrup", "triple sec", "simple syrup"],
     recipe: [
       "2 oz Dark Rum",
       "0.75 oz Fresh Lime Juice",
@@ -650,13 +651,13 @@ const cocktailData = [
     id: 39,
     cocktailName: "Rum Punch",
     ingredients: [
-      "Rum",
-      "Orange",
-      "Pineapple",
-      "Grenadine",
-      "Lime",
-      "Simple Syrup",
-      "Bitters",
+      "rum",
+      "orange",
+      "pineapple",
+      "grenadine",
+      "lime",
+      "simple syrup",
+      "bitters",
     ],
     recipe: [
       "2 oz Dark Rum",
@@ -670,7 +671,7 @@ const cocktailData = [
     ],
     directions: [
       "Fill a shaker with ice.",
-      "Add dark rum, orange juice, pineapple juice, grenadine, lime juice, simple syrup, and angostura bitters.",
+      "Add dark rum, orange juice, pineapple juice, grenadine, lime juice, simple syrup, and Angostura bitters.",
       "Shake well.",
       "Strain into a chilled highball glass filled with ice.",
       "Garnish with a lime slice and a cherry.",
@@ -734,7 +735,7 @@ const cocktailData = [
       "6oz ginger beer",
     ],
     directions: [
-      "Squeeze lime juice into a MoscKenow Mule mug (or a Collins glass) and drop in the spent shell.",
+      "Squeeze lime juice into a Moscow Mule mug (or a Collins glass) and drop in the spent shell.",
       "Add 2 or 3 ice cubes, then pour in the bourbon and fill with cold ginger beer. Garnish with mint and serve with a stirring rod.",
     ],
     img: "kentucky-mule.jpeg",
@@ -742,12 +743,12 @@ const cocktailData = [
   {
     id: 44,
     cocktailName: "Blue Lagoon",
-    ingredients: ["Vodka", "Blue Curacao", "Lemonade"],
+    ingredients: ["vodka", "blue curacao", "lemonade"],
     recipe: [
-      "1.5 oz Vodka",
-      "0.5 oz Blue Curacao",
-      "4 oz Lemonade",
-      "Lemon Slice and Cherry (for garnish)",
+      "1.5 oz vodka",
+      "0.5 oz blue curacao",
+      "4 oz lemonade",
+      "lemon slice and cherry (for garnish)",
     ],
     directions: [
       "Fill a highball glass with ice.",
@@ -760,18 +761,13 @@ const cocktailData = [
   {
     id: 45,
     cocktailName: "Pisco Sour",
-    ingredients: [
-      "Pisco",
-      "Lime",
-      "Simple Syrup",
-      "Bitters",
-    ],
+    ingredients: ["pisco", "lime", "simple syrup", "bitters"],
     recipe: [
-      "2 oz Pisco",
-      "1 oz Fresh Lime Juice",
-      "0.75 oz Simple Syrup",
-      "1 Egg White",
-      "Angostura Bitters",
+      "2 oz pisco",
+      "1 oz fresh lime juice",
+      "0.75 oz simple syrup",
+      "1 egg white",
+      "angostura bitters",
     ],
     directions: [
       "Dry shake pisco, fresh lime juice, simple syrup, and egg white without ice.",
@@ -784,8 +780,8 @@ const cocktailData = [
   {
     id: 46,
     cocktailName: "Gin and Tonic",
-    ingredients: ["Gin", "Tonic"],
-    recipe: ["2 oz Gin", "5 oz Tonic Water", "Lime Wedge for garnish"],
+    ingredients: ["gin", "tonic"],
+    recipe: ["2 oz gin", "5 oz tonic water", "lime wedge for garnish"],
     directions: [
       "Fill a highball glass with ice.",
       "Add gin and tonic water.",
@@ -795,3 +791,5 @@ const cocktailData = [
     img: "gin-tonic.jpeg",
   },
 ];
+
+export default cocktailData;

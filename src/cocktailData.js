@@ -1,4 +1,4 @@
-// 
+//
 
 const cocktailData = [
   {
@@ -167,7 +167,7 @@ const cocktailData = [
       "Add fresh lime juice and stir.",
       "Garnish with a lime wedge.",
     ],
-    img: "moscow-mule.jpeg",
+    img: "moscow_mule.jpeg",
   },
   {
     id: 11,

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Can-I-Cocktail/static/css/main.815858f1.css",
+    "main.js": "/Can-I-Cocktail/static/js/main.41177105.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Can-I-Cocktail/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Can-I-Cocktail/index.html",
+    "main.815858f1.css.map": "/Can-I-Cocktail/static/css/main.815858f1.css.map",
+    "main.41177105.js.map": "/Can-I-Cocktail/static/js/main.41177105.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Can-I-Cocktail/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.815858f1.css",
+    "static/js/main.41177105.js"
+  ]
+}

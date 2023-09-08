@@ -11,7 +11,7 @@ const SearchResult = ({ matches }) => {
             <div className={styles.cocktailCard}>
               <img
                 className={styles.image}
-                src={cocktail.img}
+                src={process.env.PUBLIC_URL + "/" + cocktail.img}
                 alt={cocktail.img}
               />
               <h2 className={styles.cocktailName}>{cocktail.cocktailName}</h2>

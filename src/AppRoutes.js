@@ -9,7 +9,6 @@ const AppRoutes = () => {
   return (
     <div>
       <Routes>
-        {/* <Route path="/*" element={<Home />} /> */}
         <Route path="/" element={<Home />} />
         <Route path="/recipes" element={<AllRecipes />} />
       </Routes>

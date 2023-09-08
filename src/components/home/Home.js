@@ -9,7 +9,7 @@ const Home = (props) => {
         <h1 className={styles.title}>Can I Cocktail?</h1>
         <img
           className={styles.logo}
-          src="/neon_sign.png"
+          src={process.env.PUBLIC_URL + "/neon_sign.png"}
           alt="neon sign of a butler's arm and hand holding a drink tray with a martini glass that has an olive with skewer "
         />
       </div>

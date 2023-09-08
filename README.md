@@ -1,6 +1,6 @@
 # Can I Cocktail?
 
-Can I Cocktail? Is a React web application that allows you to input the ingredients in your bar/fridge/pantry to figure out of if you can make a cocktail. The application has limitations that the creators would like to expand, however we are pleased to present our MVP: https://can-i-cocktail.github.io/Can-I-Cocktail
+Can I Cocktail? Is a React web application that allows you to input the ingredients in your bar/fridge/pantry to figure out of if you can make a cocktail. The application has limitations that the creators would like to expand, however we are pleased to present our MVP: https://can-i-cocktail.github.io/Can-I-Cocktail/
 
 ## The ingredient matching function
 

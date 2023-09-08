@@ -13,11 +13,7 @@ example:
 - renders dirty martini card component 
 */
 
-// set up each of the inputs as state
-// do an on change that updates the input with the input from the event
-
 const SearchForm = () => {
-  // console.log(cocktailData);
   const recipeList = cocktailData;
   const [ingredient1, setIngredient1] = useState("");
   const [ingredient2, setIngredient2] = useState("");

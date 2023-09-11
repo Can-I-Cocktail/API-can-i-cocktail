@@ -792,4 +792,14 @@ const cocktailData = [
   },
 ];
 
+cocktailData.sort(function(a, b) {
+  if (a.cocktailName < b.cocktailName) {
+    return -1;
+  }
+  if (a.cocktailName > b.cocktailName) {
+    return 1;
+  }
+  return 0;
+});
+
 export default cocktailData;

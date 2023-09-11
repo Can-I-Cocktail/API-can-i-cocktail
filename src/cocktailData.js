@@ -800,6 +800,6 @@ cocktailData.sort(function(a, b) {
     return 1;
   }
   return 0;
-});
+}); 
 
 export default cocktailData;
